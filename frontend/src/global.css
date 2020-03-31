@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font: 400 14px Roboto, sans-serif;
+    background: white;
+    -webkit-font-smoothing: antialiased;
+}
+
+input, button, textarea {
+    font: 400 18px Roboto, sans-serif;   
+}
+
+button {
+    cursor: pointer;
+}
+
+.back-link section.form form a{
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    color: #41414D;
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: opacity 0.2s;
+}
+
+.back-link section.form form a.button.hover{
+    opacity: 0.8;
+}
+
+.back-link section.form form a svg{
+    margin-right: 8px;
+}
